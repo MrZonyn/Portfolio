@@ -212,6 +212,17 @@ li {
   margin-left: 1rem;
 }
 
+.img-carrinho {
+  height: 10rem;
+  width: 10rem;
+  margin-left: 4rem;
+}
+@media (max-width: 740px) {
+  .img-carrinho {
+    margin-left: 2rem;
+  }
+}
+
 @media (max-width: 740px) {
   .posts-content .posts-cards {
     flex-direction: column;
